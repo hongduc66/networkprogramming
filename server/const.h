@@ -5,6 +5,7 @@
 
 // Buffer size
 #define BUFF_SIZE				8192
+#define OP_SIZE					3
 #define ACCOUNT_SIZE			50
 #define TIME_SIZE				50
 #define HEADER_SIZE				5
@@ -15,6 +16,10 @@
 // Server address
 #define SERVER_ADDR				"127.0.0.1"
 #define SERVER_PORT				6000
+
+// Completion Port Operation
+#define RECEIVE					0
+#define SEND					1
 
 // File
 #define ACCOUNT_FILE			"account.txt"
@@ -193,6 +198,7 @@
 #define UPDATE_GAME_BUY_WPN		"40107" // Buy weapon
 #define UPDATE_GAME_BUY_WALL	"40108" // Buy wall
 #define UPDATE_GAME_CHEAT		"40109" // Cheat
+#define UPDATE_GAME_OVER        "40110" // When game end
 
 #define UPDATE_LOBBY_QUIT		"40200" // Inform disconnect from player
 #define UPDATE_LOBBY_JOIN		"40201" // Inform join from player
@@ -203,6 +209,7 @@
 
 // *** Game logic constant ***
 // Amount
+#define MAX_CLIENT				1000
 #define GAME_NUM				12
 #define PLAYER_NUM				12
 #define TEAM_NUM				4
@@ -210,8 +217,8 @@
 #define MINE_NUM				6
 #define WALL_NUM				5
 #define WEAPON_NUM				4
-#define HARDQUESTION_NUM		10
-#define EASYQUESTION_NUM		10
+#define HARDQUESTION_NUM		200
+#define EASYQUESTION_NUM		100
 
 // Wall type
 #define NO_WALL					0
@@ -279,10 +286,10 @@
 #define CANNON_IRON				1800
 
 // Update loop info
-#define LOOP_TIME               30000 // update per 30 seconds
-#define MAX_LOOP                479 // 4 hour
+#define LOOP_TIME               30000 
+#define MAX_LOOP                480 // 4 hour
 
-// Addtion per loop
+// Addtion per 30 seconds
 #define ADDITION_GOLD			5
 #define ADDITION_WOOD			20
 #define ADDITION_STONE			15
