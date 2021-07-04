@@ -1,0 +1,7 @@
+﻿  stdafx.cpp
+  Server_HoangLong.cpp
+g:\qtprojects\gui_client\networkprogramming\server_test\server_hoanglong\server_hoanglong.cpp(236): warning C4018: '>': signed/unsigned mismatch
+g:\qtprojects\gui_client\networkprogramming\server_test\server_hoanglong\server_hoanglong.cpp(263): warning C4018: '<': signed/unsigned mismatch
+g:\qtprojects\gui_client\networkprogramming\server_test\server_hoanglong\server_hoanglong.cpp(266): warning C4018: '>=': signed/unsigned mismatch
+  Server_HoangLong.vcxproj -> G:\QtProjects\GUI_Client\networkprogramming\Server_test\Debug\Server_HoangLong.exe
+  Server_HoangLong.vcxproj -> G:\QtProjects\GUI_Client\networkprogramming\Server_test\Debug\Server_HoangLong.pdb (Full PDB)

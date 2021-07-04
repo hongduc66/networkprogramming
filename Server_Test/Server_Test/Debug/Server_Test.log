@@ -1,0 +1,6 @@
+﻿  Server_Test.cpp
+g:\qtprojects\gui_client\networkprogramming\server_test\server_test\server_test.cpp(246): warning C4018: '>': signed/unsigned mismatch
+g:\qtprojects\gui_client\networkprogramming\server_test\server_test\server_test.cpp(274): warning C4018: '<': signed/unsigned mismatch
+g:\qtprojects\gui_client\networkprogramming\server_test\server_test\server_test.cpp(277): warning C4018: '>=': signed/unsigned mismatch
+  Server_Test.vcxproj -> G:\QtProjects\GUI_Client\networkprogramming\Server_Test\Debug\Server_Test.exe
+  Server_Test.vcxproj -> G:\QtProjects\GUI_Client\networkprogramming\Server_Test\Debug\Server_Test.pdb (Full PDB)
