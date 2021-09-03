@@ -12,3 +12,4 @@
 - IDE Qt Creator Community
 
 Sau khi đã cài đặt xong môi trường, import project và bắt đầu debug
+  ![alt text](https://i.ibb.co/MMF1cYL/install.png)
